@@ -1,6 +1,10 @@
 <section class="hero">
 
+    <div class="hero-bg"></div>
+
     <div class="container hero-container">
+
+        <!-- Left -->
 
         <div class="hero-left">
 
@@ -9,20 +13,14 @@
             </span>
 
             <h1>
-
                 Transform Your Business
-
-                <span>With Digital Solutions</span>
-
+                <span>With Modern Digital Solutions</span>
             </h1>
 
             <p>
-
-                We build websites, ERP software,
-                mobile applications and AI-powered
-                digital solutions that help businesses
-                grow faster.
-
+                We build websites, ERP software, mobile applications,
+                AI solutions and digital marketing strategies that help
+                businesses grow faster.
             </p>
 
             <div class="hero-buttons">
@@ -37,38 +35,36 @@
 
             </div>
 
-             <div class="hero-stats">
+            <div class="hero-stats">
 
-                <div>
-                    <h2>50+</h2>
+                <div class="stat">
+                    <h3>50+</h3>
                     <span>Projects</span>
                 </div>
 
-                <div>
-                    <h2>98%</h2>
-                    <span>Satisfaction</span>
+                <div class="stat">
+                    <h3>20+</h3>
+                    <span>Clients</span>
                 </div>
 
-                <div>
-                    <h2>24/7</h2>
-                    <span>Support</span>
+                <div class="stat">
+                    <h3>98%</h3>
+                    <span>Satisfaction</span>
                 </div>
 
             </div>
 
         </div>
 
+        <!-- Right -->
+
         <div class="hero-right">
 
-            <div class="laptop-placeholder">
+            <div class="hero-image">
 
-                💻 Laptop Mockup
-
-            </div>
-
-            <div class="mobile-placeholder">
-
-                📱 Mobile Mockup
+                <img
+                    src="{{ asset('assets/images/mockups/laptop.png') }}"
+                    alt="Laptop Mockup">
 
             </div>
 
