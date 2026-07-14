@@ -19,10 +19,8 @@
 
 @include('partials.navbar')
 
-<main>
-
-@yield('content')
-
+<main style="padding-top:80px;">
+    @yield('content')
 </main>
 
 @include('partials.footer')
