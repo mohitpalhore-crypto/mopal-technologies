@@ -2,12 +2,14 @@
 
 @section('content')
 
-<div class="container py-5">
+@include('components.hero')
 
-<h1>Welcome to Mopal Technologies</h1>
+@include('components.about')
 
-<p>Professional Software Development Company</p>
+@include('components.services')
 
-</div>
+@include('components.portfolio')
+
+@include('components.contact')
 
 @endsection
