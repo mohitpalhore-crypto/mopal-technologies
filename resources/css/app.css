@@ -1,16 +1,34 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-/* Global Styles */
+:root{
+    --primary:#ff8a00;
+    --secondary:#8b5cf6;
+    --dark:#09090b;
+    --card:#17171d;
+    --text:#ffffff;
+    --gray:#bdbdbd;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    font-family: "Poppins", sans-serif;
-    background:#ffffff;
-    color:#222;
+    font-family:'Outfit',sans-serif;
+    background:var(--dark);
+    color:#fff;
 }
 
 a{
     text-decoration:none;
 }
 
-.section-padding{
-    padding:90px 0;
+section{
+    padding:100px 0;
+}
+
+.container{
+    max-width:1200px;
 }
