@@ -1,0 +1,16 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Global Styles */
+body{
+    font-family: "Poppins", sans-serif;
+    background:#ffffff;
+    color:#222;
+}
+
+a{
+    text-decoration:none;
+}
+
+.section-padding{
+    padding:90px 0;
+}
