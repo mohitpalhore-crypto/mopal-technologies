@@ -2,9 +2,17 @@
     <div class="container nav-container">
 
         <a href="/" class="logo">
-            <span class="logo-m">M</span>opal
-            <span class="logo-tech">Technologies</span>
-        </a>
+
+    <img src="{{ asset('assets/images/logo/mopal_logo_0_1.png') }}"
+         alt="Mopal Technologies Logo"
+         class="logo-img">
+
+    <div class="logo-text">
+        <span class="logo-m">M</span>opal
+        <span class="logo-tech">Technologies</span>
+    </div>
+
+</a>
 
         <ul class="nav-menu">
             <li><a href="/" class="active">Home</a></li>
