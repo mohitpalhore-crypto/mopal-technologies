@@ -1,12 +1,13 @@
 <section class="hero">
 
-    <div class="hero-bg"></div>
+    <div class="hero-bg">
+        <div class="glow glow-orange"></div>
+        <div class="glow glow-purple"></div>
+    </div>
 
     <div class="container hero-container">
 
-        <!-- Left -->
-
-        <div class="hero-left">
+        <div class="hero-left" data-aos="fade-right">
 
             <span class="hero-badge">
                 🚀 BUILD SMART. GROW FAST.
@@ -18,9 +19,9 @@
             </h1>
 
             <p>
-                We build websites, ERP software, mobile applications,
-                AI solutions and digital marketing strategies that help
-                businesses grow faster.
+                We design high-performance websites, ERP systems,
+                mobile apps, AI solutions and digital experiences
+                that help businesses grow faster.
             </p>
 
             <div class="hero-buttons">
@@ -37,18 +38,18 @@
 
             <div class="hero-stats">
 
-                <div class="stat">
-                    <h3>50+</h3>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+                    <h2>50+</h2>
                     <span>Projects</span>
                 </div>
 
-                <div class="stat">
-                    <h3>20+</h3>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                    <h2>20+</h2>
                     <span>Clients</span>
                 </div>
 
-                <div class="stat">
-                    <h3>98%</h3>
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+                    <h2>98%</h2>
                     <span>Satisfaction</span>
                 </div>
 
@@ -56,19 +57,38 @@
 
         </div>
 
-        <!-- Right -->
+        <div class="hero-right" data-aos="zoom-in">
 
-        <div class="hero-right">
+    <div class="hero-image">
 
-            <div class="hero-image">
+        <img
+            src="{{ asset('assets/images/mockups/laptop.png') }}"
+            alt="Mopal Dashboard"
+            class="laptop-image">
 
-                <img
-                    src="{{ asset('assets/images/mockups/laptop.png') }}"
-                    alt="Laptop Mockup">
+    </div>
 
-            </div>
+    <div class="mobile-mockup">
 
-        </div>
+        <img
+            src="{{ asset('assets/images/mockups/mobile.png') }}"
+            alt="Mobile App">
+
+    </div>
+
+    <div class="floating-card card-one">
+        🌐 Website Development
+    </div>
+
+    <div class="floating-card card-two">
+        📱 Mobile Apps
+    </div>
+
+    <div class="floating-card card-three">
+        ⚡ ERP Solutions
+    </div>
+
+</div>
 
     </div>
 
