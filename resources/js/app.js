@@ -7,6 +7,7 @@ import '../css/app.css';
 import './modules/navbar';
 import './modules/theme';
 import './modules/hero';
+import './modules/portfolio';
 
 AOS.init({
     duration: 1000,
