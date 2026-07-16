@@ -1,0 +1,213 @@
+.footer{
+
+    padding:90px 0 30px;
+
+    background:#08080a;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.footer-grid{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr 1.5fr;
+
+    gap:50px;
+
+}
+
+.footer-logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:20px;
+
+}
+
+.footer-logo img{
+
+    width:60px;
+
+}
+
+.footer-logo h3{
+
+    color:#fff;
+
+}
+
+.footer-about p{
+
+    color:#bdbdbd;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+
+.footer h4{
+
+    margin-bottom:20px;
+
+    color:#fff;
+
+}
+
+.footer ul{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.footer li{
+
+    margin-bottom:15px;
+
+    color:#bdbdbd;
+
+}
+
+.footer a{
+
+    color:#bdbdbd;
+
+    transition:.3s;
+
+}
+
+.footer a:hover{
+
+    color:var(--primary);
+
+}
+
+.footer-social{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.footer-social a{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.newsletter{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.newsletter input{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+}
+
+.newsletter button{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    color:#fff;
+
+    background:linear-gradient(90deg,var(--primary),var(--secondary));
+
+}
+
+.footer-bottom{
+
+    margin-top:70px;
+
+    padding-top:30px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+#backToTop{
+
+    width:50px;
+
+    height:50px;
+
+    border:none;
+
+    border-radius:50%;
+
+    color:#fff;
+
+    cursor:pointer;
+
+    background:linear-gradient(90deg,var(--primary),var(--secondary));
+
+}
+
+@media(max-width:991px){
+
+.footer-grid{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.footer-bottom{
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+}

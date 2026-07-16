@@ -19,6 +19,7 @@
 @import "./pages/why-choose.css";
 @import "./pages/testimonials.css";
 @import "./pages/contact.css";
+@import "./components/footer.css";
 
 :root{
     --primary:#ff8a00;

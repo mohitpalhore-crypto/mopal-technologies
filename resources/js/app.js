@@ -10,6 +10,7 @@ import './modules/hero';
 import './modules/portfolio';
 import './modules/counter';
 import './modules/testimonial-slider';
+import './modules/footer';
 
 AOS.init({
     duration: 1000,
