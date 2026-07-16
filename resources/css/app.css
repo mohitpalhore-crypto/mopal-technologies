@@ -13,6 +13,7 @@
 
 @import "./pages/home.css";
 @import "./responsive.css";
+@import "./pages/about.css";
 
 :root{
     --primary:#ff8a00;
