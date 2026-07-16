@@ -10,6 +10,8 @@
 
 @include('components.portfolio')
 
+@include('components.why-choose')
+
 @include('components.contact')
 
 @endsection

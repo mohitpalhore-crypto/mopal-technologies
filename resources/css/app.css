@@ -16,6 +16,7 @@
 @import "./pages/about.css";
 @import "./pages/services.css";
 @import "./pages/portfolio.css";
+@import "./pages/why-choose.css";
 
 :root{
     --primary:#ff8a00;
