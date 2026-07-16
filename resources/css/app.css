@@ -18,6 +18,7 @@
 @import "./pages/portfolio.css";
 @import "./pages/why-choose.css";
 @import "./pages/testimonials.css";
+@import "./pages/contact.css";
 
 :root{
     --primary:#ff8a00;
