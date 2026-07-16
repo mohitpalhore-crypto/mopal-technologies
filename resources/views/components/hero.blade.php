@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero" id="hero">
 
     <div class="hero-bg">
         <div class="glow glow-orange"></div>

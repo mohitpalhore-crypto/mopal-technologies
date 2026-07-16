@@ -10,6 +10,8 @@
     overflow: hidden;
     background: var(--bg);
     transition: .35s;
+    z-index:1;
+    
 }
 
 .hero-bg{
