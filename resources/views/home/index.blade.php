@@ -12,6 +12,8 @@
 
 @include('components.why-choose')
 
+@include('components.testimonials')
+
 @include('components.contact')
 
 @endsection

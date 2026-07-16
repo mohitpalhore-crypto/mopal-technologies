@@ -17,6 +17,7 @@
 @import "./pages/services.css";
 @import "./pages/portfolio.css";
 @import "./pages/why-choose.css";
+@import "./pages/testimonials.css";
 
 :root{
     --primary:#ff8a00;
@@ -34,7 +35,7 @@ html[data-theme="dark"]{
 }
 
 html[data-theme="light"]{
-    --bg:#f8fafc;
+   --bg:#f8fafc;
     --surface:#ffffff;
     --surface-2:#f1f5f9;
     --text:#111827;
