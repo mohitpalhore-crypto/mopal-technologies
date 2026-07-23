@@ -1,35 +1,65 @@
-const toggle = document.getElementById("theme-toggle");
+function setTheme(theme){
 
-if(toggle){
+    document.documentElement.setAttribute("data-theme",theme);
 
-    const html = document.documentElement;
+    localStorage.setItem("theme",theme);
 
-    const savedTheme = localStorage.getItem("theme") || "dark";
+    updateButtons(theme);
 
-    html.setAttribute("data-theme",savedTheme);
+}
 
-    toggle.textContent = savedTheme === "dark" ? "🌙" : "☀️";
+function updateButtons(theme){
 
-    toggle.addEventListener("click",()=>{
+    const desktop=document.getElementById("theme-toggle");
 
-        const current = html.getAttribute("data-theme");
+    const mobile=document.getElementById("theme-toggle-mobile");
 
-        const next = current==="dark"
+    if(desktop){
 
-        ? "light"
+        desktop.innerHTML=theme==="dark"?"🌙":"☀️";
 
-        : "dark";
+    }
 
-        html.setAttribute("data-theme",next);
+    if(mobile){
 
-        localStorage.setItem("theme",next);
+        mobile.innerHTML=theme==="dark"
 
-        toggle.textContent = next==="dark"
+        ?"🌙 Dark Mode"
 
-        ? "🌙"
+        :"☀️ Light Mode";
 
-        : "☀️";
+    }
+
+}
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+    const saved=localStorage.getItem("theme")||"dark";
+
+    setTheme(saved);
+
+    document.getElementById("theme-toggle")?.addEventListener("click",()=>{
+
+        const next=document.documentElement.getAttribute("data-theme")==="dark"
+
+        ?"light"
+
+        :"dark";
+
+        setTheme(next);
 
     });
 
-}
+    document.getElementById("theme-toggle-mobile")?.addEventListener("click",()=>{
+
+        const next=document.documentElement.getAttribute("data-theme")==="dark"
+
+        ?"light"
+
+        :"dark";
+
+        setTheme(next);
+
+    });
+
+});

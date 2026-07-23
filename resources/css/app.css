@@ -20,6 +20,16 @@
 @import "./pages/testimonials.css";
 @import "./pages/contact.css";
 @import "./components/footer.css";
+@import "./pages/website-development.css";
+@import "./pages/ecommerce.css";
+@import "./pages/erp-software.css";
+@import "./pages/custom-software.css";
+@import "./pages/mobile-app-development.css";
+@import "./pages/digital-marketing.css";
+@import "./pages/seo-services.css";
+@import "./pages/ui-ux-design.css";
+@import "./pages/ai-solutions.css";
+@import "./components/service-features.css";
 
 :root{
     --primary:#ff8a00;
@@ -43,7 +53,7 @@ html[data-theme="light"]{
     --text:#111827;
     --text-secondary:#4b5563;
     --border:rgba(0,0,0,.08);
-    --navbar:rgba(255,255,255,.90);
+    --navbar: rgba(255,255,255,.95);
 }
 
 html{
@@ -82,4 +92,10 @@ section{
 
 .container{
     max-width:1200px;
+}
+
+body.menu-open{
+
+overflow:hidden;
+
 }
