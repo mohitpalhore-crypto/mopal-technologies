@@ -11,6 +11,7 @@
     background: var(--bg);
     transition: .35s;
     z-index:1;
+    overflow:hidden;
     
 }
 

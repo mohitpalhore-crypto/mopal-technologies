@@ -1,0 +1,293 @@
+/* ==========================================
+   HERO PREMIUM BACKGROUND
+========================================== */
+
+.hero-bg{
+    position:absolute;
+    inset:0;
+    overflow:hidden;
+    z-index:0;
+    pointer-events:none;
+}
+
+/* ==========================
+   GRID
+========================== */
+
+.hero-grid{
+    position:absolute;
+    inset:0;
+
+    background-image:
+        linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+
+    background-size:50px 50px;
+
+    opacity:.35;
+
+    animation:gridMove 25s linear infinite;
+}
+
+/* ==========================
+   AURORA
+========================== */
+
+.aurora{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(120px);
+    opacity:.45;
+    animation:auroraMove 18s ease-in-out infinite alternate;
+}
+
+.aurora-1{
+
+    width:500px;
+    height:500px;
+
+    background:#ff8a00;
+
+    top:-120px;
+    left:-120px;
+
+}
+
+.aurora-2{
+
+    width:420px;
+    height:420px;
+
+    background:#8b5cf6;
+
+    right:-80px;
+    top:120px;
+
+    animation-delay:4s;
+
+}
+
+.aurora-3{
+
+    width:350px;
+    height:350px;
+
+    background:#ff4d6d;
+
+    bottom:-120px;
+    left:40%;
+
+    animation-delay:8s;
+
+}
+
+/* ==========================
+   BLOBS
+========================== */
+
+.blob{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(80px);
+
+    opacity:.35;
+
+}
+
+.blob-1{
+
+    width:260px;
+    height:260px;
+
+    background:#ff8a00;
+
+    left:8%;
+    top:55%;
+
+    animation:floatBlob 14s ease-in-out infinite;
+
+}
+
+.blob-2{
+
+    width:220px;
+    height:220px;
+
+    background:#8b5cf6;
+
+    right:12%;
+    top:20%;
+
+    animation:floatBlob 18s ease-in-out infinite;
+
+}
+
+.blob-3{
+
+    width:180px;
+    height:180px;
+
+    background:#00c2ff;
+
+    bottom:5%;
+    right:35%;
+
+    animation:floatBlob 12s ease-in-out infinite;
+
+}
+
+/* ==========================
+   PARTICLES
+========================== */
+
+.particles{
+
+    position:absolute;
+    inset:0;
+
+}
+
+.particle{
+
+    position:absolute;
+
+    width:4px;
+    height:4px;
+
+    border-radius:50%;
+
+    background:#ffffff;
+
+    opacity:.6;
+
+    animation:particleFloat linear infinite;
+
+}
+
+/* 40 Particle Positions */
+
+.particle:nth-child(1){left:5%;top:90%;animation-duration:12s;}
+.particle:nth-child(2){left:10%;top:75%;animation-duration:18s;}
+.particle:nth-child(3){left:15%;top:60%;animation-duration:14s;}
+.particle:nth-child(4){left:20%;top:82%;animation-duration:16s;}
+.particle:nth-child(5){left:25%;top:55%;animation-duration:13s;}
+.particle:nth-child(6){left:30%;top:70%;animation-duration:19s;}
+.particle:nth-child(7){left:35%;top:88%;animation-duration:15s;}
+.particle:nth-child(8){left:40%;top:62%;animation-duration:17s;}
+.particle:nth-child(9){left:45%;top:78%;animation-duration:11s;}
+.particle:nth-child(10){left:50%;top:68%;animation-duration:20s;}
+
+.particle:nth-child(11){left:55%;top:82%;animation-duration:12s;}
+.particle:nth-child(12){left:60%;top:74%;animation-duration:16s;}
+.particle:nth-child(13){left:65%;top:90%;animation-duration:15s;}
+.particle:nth-child(14){left:70%;top:56%;animation-duration:18s;}
+.particle:nth-child(15){left:75%;top:80%;animation-duration:14s;}
+.particle:nth-child(16){left:80%;top:72%;animation-duration:13s;}
+.particle:nth-child(17){left:85%;top:60%;animation-duration:17s;}
+.particle:nth-child(18){left:90%;top:88%;animation-duration:19s;}
+.particle:nth-child(19){left:95%;top:70%;animation-duration:15s;}
+.particle:nth-child(20){left:12%;top:45%;animation-duration:20s;}
+
+.particle:nth-child(21){left:18%;top:35%;animation-duration:11s;}
+.particle:nth-child(22){left:28%;top:28%;animation-duration:18s;}
+.particle:nth-child(23){left:36%;top:18%;animation-duration:14s;}
+.particle:nth-child(24){left:44%;top:25%;animation-duration:17s;}
+.particle:nth-child(25){left:52%;top:15%;animation-duration:13s;}
+.particle:nth-child(26){left:60%;top:35%;animation-duration:15s;}
+.particle:nth-child(27){left:68%;top:22%;animation-duration:19s;}
+.particle:nth-child(28){left:76%;top:12%;animation-duration:12s;}
+.particle:nth-child(29){left:84%;top:30%;animation-duration:16s;}
+.particle:nth-child(30){left:92%;top:20%;animation-duration:18s;}
+
+.particle:nth-child(31){left:8%;top:10%;animation-duration:13s;}
+.particle:nth-child(32){left:22%;top:12%;animation-duration:17s;}
+.particle:nth-child(33){left:38%;top:8%;animation-duration:15s;}
+.particle:nth-child(34){left:48%;top:5%;animation-duration:20s;}
+.particle:nth-child(35){left:58%;top:10%;animation-duration:14s;}
+.particle:nth-child(36){left:66%;top:8%;animation-duration:16s;}
+.particle:nth-child(37){left:74%;top:5%;animation-duration:18s;}
+.particle:nth-child(38){left:82%;top:10%;animation-duration:12s;}
+.particle:nth-child(39){left:90%;top:6%;animation-duration:19s;}
+.particle:nth-child(40){left:96%;top:14%;animation-duration:15s;}
+
+/* ==========================
+   ANIMATIONS
+========================== */
+
+@keyframes auroraMove{
+
+    from{
+        transform:translate(0,0) scale(1);
+    }
+
+    to{
+        transform:translate(80px,-50px) scale(1.25);
+    }
+
+}
+
+@keyframes floatBlob{
+
+    0%,100%{
+        transform:translateY(0) translateX(0);
+    }
+
+    50%{
+        transform:translateY(-35px) translateX(20px);
+    }
+
+}
+
+@keyframes particleFloat{
+
+    from{
+        transform:translateY(0);
+        opacity:.25;
+    }
+
+    to{
+        transform:translateY(-220px);
+        opacity:1;
+    }
+
+}
+
+@keyframes gridMove{
+
+    from{
+        transform:translateY(0);
+    }
+
+    to{
+        transform:translateY(50px);
+    }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+    .aurora-1,
+    .aurora-2,
+    .aurora-3{
+
+        width:250px;
+        height:250px;
+
+        filter:blur(80px);
+
+    }
+
+    .blob{
+
+        filter:blur(50px);
+
+    }
+
+}

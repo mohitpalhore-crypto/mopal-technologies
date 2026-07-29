@@ -1,5 +1,7 @@
 <section class="hero" id="hero">
 
+      @include('partials.hero-background')
+
     <div class="hero-bg">
         <div class="glow glow-orange"></div>
         <div class="glow glow-purple"></div>

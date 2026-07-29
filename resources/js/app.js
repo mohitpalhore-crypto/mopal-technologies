@@ -26,6 +26,8 @@ import './modules/footer';
 
 import "./modules/whatsapp-widget";
 
+import "./modules/hero-background";
+
 AOS.init({
 
     duration:1000,
