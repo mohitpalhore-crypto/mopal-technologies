@@ -30,6 +30,7 @@
 @import "./pages/ui-ux-design.css";
 @import "./pages/ai-solutions.css";
 @import "./components/service-features.css";
+@import "./components/development-process.css";
 
 :root{
     --primary:#ff8a00;

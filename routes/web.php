@@ -6,8 +6,7 @@ use App\Http\Controllers\ContactController;
 
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::post('/contact', [ContactController::class, 'store'])
-    ->name('contact.store');
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 Route::view('/website-development', 'services.website-development');
 
