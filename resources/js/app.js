@@ -24,6 +24,8 @@ import './modules/testimonial-slider';
 
 import './modules/footer';
 
+import "./modules/whatsapp-widget";
+
 AOS.init({
 
     duration:1000,

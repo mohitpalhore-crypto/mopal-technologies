@@ -16,4 +16,6 @@
 
 @include('components.contact')
 
+@include('partials.whatsapp-widget')
+
 @endsection
